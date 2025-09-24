@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 
-const Vehicles = () => {
+const Products = () => {
   return (
     <>
     <Navbar/>
@@ -9,4 +9,4 @@ const Vehicles = () => {
   )
 }
 
-export default Vehicles
+export default Products;
