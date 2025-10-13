@@ -1,7 +1,7 @@
 import React from 'react'
 import Navbar from '../components/Navbar'
 import Herro from '../components/Home/Herro'
-import Featured from '../components/Home/Featured'
+import Featured from '../components/Home/Featured/Featured'
 
 const Home = () => {
   return (

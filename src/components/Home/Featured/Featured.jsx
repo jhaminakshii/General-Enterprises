@@ -2,6 +2,7 @@ import React from 'react'
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
+import FeaturedCard from './FeaturedCard';
 
 
 const Featured = () => {
@@ -91,6 +92,18 @@ const Featured = () => {
         <p className=''>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam,
         </p>
+        <div>
+           <Slider {...settings}>
+                {productsData.map((item)=>(
+                   <FeaturedCard
+                    key = {item.id}
+                    img = {item.img}
+                    name = {item.name}
+                    price = {item.price}
+                   />
+                ))}
+            </Slider> 
+        </div>
     </div>
   )
 }
