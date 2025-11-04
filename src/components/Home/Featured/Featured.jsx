@@ -85,14 +85,14 @@ const Featured = () => {
     }
 
   return (
-    <div>
+    <div className= 'container mt-6 '>
         <h1 className='font-bold text-4xl text-center'>
             Featured <span className='text-amber-500'>Products</span>
         </h1>
-        <p className=''>
+        <p className='text-center mt-1'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam,
         </p>
-        <div>
+        <div className='mt-8'>
            <Slider {...settings}>
                 {productsData.map((item)=>(
                    <FeaturedCard

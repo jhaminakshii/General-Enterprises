@@ -9,10 +9,10 @@ const FeaturedCard = ({id , img , name , price}) => {
             <img src={img} alt="Auto Picture" className='rounded-t-xl w-full'  />
         </div>
         <div className='flex flex-col justify-center items-center'>
-            <h1 className='font-semibold text-xl '>{name}</h1>
+            <h1 className='font-semibold text-xl text-amber-500 pt-2'>{name}</h1>
         </div>
-        <div>
-            <h2>Starting at NRP{price}</h2>
+        <div className='flex gap-2 pt-2  justify-center'>
+            <h2 className='font-medium text-lg '>Starting at NRP{price}</h2>
         </div>
     </div>
   )
