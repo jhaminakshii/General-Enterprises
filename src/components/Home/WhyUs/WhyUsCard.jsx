@@ -7,9 +7,9 @@ const WhyUsCard = ({icon,title}) => {
         {icon}
         <h1 className='text-yellow-500 font-bold text-3xl'>{title}</h1>
         <p className='text-sm'>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. 
-            Doloremque repellendus quasi ipsum, debitis nemo provident unde corrupti ex.
-             Delectus dignissimos nemo non,inventore tenetur eius quae omnis cupiditate perferendis nihil.
+            Hear it from our customers: Real stories, real experiences. Discover a collection of heartfelt
+             testimonials that showcase why customers choose Piaggio as their trusted companion
+              and is a preferred choice for those seeking exceptional performance.
         </p>
     </div>
   )
