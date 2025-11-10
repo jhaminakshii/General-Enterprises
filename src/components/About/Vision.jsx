@@ -12,7 +12,7 @@ const Vision = () => {
         {/* content section */}
         <div className='w-full md:w-2/4 space-y-4'>
           <h1 className='text-4xl font-bold'>Our Vision</h1>
-          <h2 className='font-semibold text-lg lg:'>
+          <h2 className='font-semibold text-lg lg:text-2xl'>
             Empowerindividuals to achieve sustainable mobility solutions and
             inspire a positive impact on the environment.
           </h2>
