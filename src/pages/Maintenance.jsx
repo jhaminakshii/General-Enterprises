@@ -60,7 +60,7 @@ const Maintenance = () => {
           </div>
 
           <div className="bg-slate-50 border-t border-slate-100 px-6 py-3 text-xs text-center text-slate-400">
-            Batteries (Plylion) • Piaggio 3-Wheelers • Eicher TMTL Genset
+            Plylion Lithium-ion Battery Solutions • Piaggio 3-Wheelers • Eicher TMTL Genset
           </div>
         </div>
       </main>
