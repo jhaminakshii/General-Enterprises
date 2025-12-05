@@ -10,20 +10,20 @@ const Featured = () => {
     const productsData = [
         {
             id:0,
-            img:"/battery-auto.png",
-            name: "Apé NXT+ (Small Body)",
-            price: "4,50,000"
+            img:"/genaircool.webp",
+            name: "EICHER-Silent GenSets Air Cooled Series",
+            price: "5-35 kVA"
         },
         {
             id:1,
-            img:"/battery-auto.png",
-            name: "Apé Auto Classic (Wide Body)",
-            price: "4,50,000"
+            img:"/genwatercool.webp",
+            name: "TMTL-Silent GenSets Water Cooled Series",
+            price: "40-15 kVA"
         },
         {
             id:2,
-            img:"/battery-auto.png",
-            name: "Apé Metro (Medium Body)",
+            img:"/phylion.png",
+            name: "phylion Batteries for E-Rikshaw",
             price: "4,50,000"
         },
         {
@@ -87,7 +87,7 @@ const Featured = () => {
   return (
     <div className= 'container mt-6 '>
         <h1 className='font-bold text-4xl text-center'>
-            Featured <span className='text-amber-500'>Products</span>
+            Featured <span className='text-cyan-600'>Products</span>
         </h1>
         <p className='text-center mt-1'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus numquam,

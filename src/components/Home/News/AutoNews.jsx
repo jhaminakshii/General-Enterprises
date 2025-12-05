@@ -78,7 +78,7 @@ const AutoNews = () => {
   return (
     <div className='container mt-10'>
         <h1 className='font-bold text-4xl text-center'>
-            Products <span className='text-yellow-500'>News & Advices</span>
+            Products <span className='text-cyan-500'>News & Advices</span>
         </h1>
         <p className='text-center'>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.quaerat?

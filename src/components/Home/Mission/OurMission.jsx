@@ -5,7 +5,7 @@ const OurMission = () => {
     <div className='container my-8'>
       <div>
         <h1 className='font-bold text-4xl text-center'>
-          Our <span className='text-yellow-500'>Mission</span>
+          Our <span className='text-cyan-500'>Mission</span>
           </h1>
       </div>
 
@@ -18,7 +18,7 @@ const OurMission = () => {
       
        {/* Content Section */}
        <div className='w-full md:w-2/4 space-y-2'>
-        <h1 className='font-bold text-lg text-yellow-500 lg:text-3xl'>
+        <h1 className='font-bold text-lg text-cyan-500 lg:text-3xl'>
           Electric Mobility & Power Solutions
         </h1>
         <h2 className='font-semibold text-lg lg:text-2xl'>

@@ -42,7 +42,7 @@ const OurProducts = () => {
     <div className=' container py-6'>
         <div>
             <h1 className='font-bold text-4xl text-center py-1'>Our
-                 <span className='text-yellow-500'>Products</span>
+                 <span className='text-cyan-500'>Products</span>
             </h1>
         </div>
         <div className='grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-5 gap-5'>

@@ -2,17 +2,17 @@ import React from 'react'
 
 const FeaturedCard = ({id , img , name , price}) => {
   return (
-    <div className='border-1 border-gray-700 bg-slate-100 text-black rounded-xl
+    <div className='border-1 h-90 w-full border-cyan-500 bg-slate-100 text-black rounded-xl
         mb-2 cursor-pointer hover:scale-95 hover:bg-slate-200 transition duration-200 ease-linear'
         key={id}>
         <div>
             <img src={img} alt="Auto Picture" className='rounded-t-xl w-full'  />
         </div>
         <div className='flex flex-col justify-center items-center'>
-            <h1 className='font-semibold text-xl text-amber-500 pt-2'>{name}</h1>
+            <h2 className='font-semibold text-lg text-cyan-700 pt-2'>{name}</h2>
         </div>
         <div className='flex gap-2 pt-2  justify-center'>
-            <h2 className='font-medium text-lg '>Starting at NRP{price}</h2>
+            <h2 className='font-medium text-sm pb-2 text-gray-700'>Power : {price}</h2>
         </div>
     </div>
   )

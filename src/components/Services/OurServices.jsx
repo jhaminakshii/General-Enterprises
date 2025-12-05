@@ -19,7 +19,7 @@ const OurServices = () => {
     <div className='container pt-10'> 
         <div>
           <h1 className='font-bold text-4xl text-center'>Our
-             <span className='text-yellow-500'>Services</span>
+             <span className='text-cyan-500'>Services</span>
         </h1>
         </div>
         <div className=' grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 mt-10 gap-5'>

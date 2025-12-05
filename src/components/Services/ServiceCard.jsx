@@ -6,7 +6,7 @@ const ServiceCard = ({icon,title}) => {
                     border-neutral-700 hover:bg-neutral-700 hover:text-white
                     transition duration-300 ease-in-out rounded-md cursor-pointer'>
        <p>{icon}</p> 
-       <h1 className='text-yellow-500 text-3xl font-bold'>{title}</h1>
+       <h1 className='text-cyan-500 text-3xl font-bold'>{title}</h1>
        <p >Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus est error dicta voluptas 
         commodi illo at natus nobis odit aspernatur blanditiis ullam eaque quasi quis odio,
          in et obcaecati repellat!</p>

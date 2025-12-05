@@ -12,16 +12,18 @@ const Navbar = () => {
     setMenu(!menu)
   }
   return (
-    <header className='container-fluid fixed w-full z-10 bg-neutral-700 text-white py-3'>
+    <header className='container-fluid fixed w-full z-10 bg-white text-cyan-600 py-3'>
         {/* Desktop navigation section */}
         <nav className='container flex justify-between items-center '>
             <div className='flex items-center gap-2 ml-6'>
                 {/* General Enterprises */}
-                <GiSteeringWheel size={40} className='text-yellow-500'/>
-                <Link to="/" className='font-bold text-2xl'>General Enterprises</Link>
+                <link rel="icon" type="image/svg+xml" href="/GLogo.jpg" />
+                <img src="/GLogo.jpg" alt="logo" size={40} className='h-16 w-50' />
+                {/* <GiSteeringWheel size={40} className='text-yellow-500'/>
+                <Link to="/" className='font-bold text-2xl'>General Enterprises</Link> */}
             </div>
             <div className='hidden md:flex  items-center gap-6 font-medium text-xl'>
-                <Link to="/" className='hover:text-yellow-500 transition duration-200 ease-linear'>Home</Link>
+                <Link to="/" className='hover:text-green-900 transition duration-200 ease-linear'>Home</Link>
                 <Link to="/about" className='hover:text-yellow-500 transition duration-200 ease-linear'>About</Link>
                 <Link to="/products" className='hover:text-yellow-500 transition duration-200 ease-linear'>Products</Link>
                 <Link to="/services" className='hover:text-yellow-500 transition duration-200 ease-linear'>Services</Link>
