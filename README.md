@@ -1,12 +1,88 @@
-# React + Vite
+# General Enterprises Pvt. Ltd.
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Modern Website for Power, Energy & Mobility Solutions
 
-Currently, two official plugins are available:
+General Enterprises Pvt. Ltd., headquartered in Durbar Marg, Kathmandu–1, Nepal, is a forward-thinking company delivering reliable power and modern mobility solutions across Nepal. As the authorized distributor of **E-TMTL** (Silent Gensets & Engines), **Phylion** (Lithium Batteries), and **Piaggio** (Commercial Vehicles), we serve diverse infrastructure and mobility needs nationwide.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This repository contains the complete source code of the **General Enterprises Company Website**, built using **React.js**, **Tailwind CSS**, and reusable modular components.
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🚀 Features
+
+### 🔷 **Modern React Frontend**
+
+* Fully responsive design
+* Component-based architecture
+* Tailwind CSS styling
+* Clean folder structure (Home, About, Products, Services, Contact)
+
+### 🔷 **Company Highlights Included**
+
+* E-TMTL Silent Gensets & Engines
+* Phylion Lithium Batteries
+* Piaggio Commercial Vehicles
+* Nationwide dealer network (18+ locations)
+* Mission, Vision & About Us sections
+* Real product images & hero banner
+* Contact form
+
+---
+
+## 📁 Project Structure
+
+```
+src/
+ ├── components/
+ │   ├── Home/
+ │   ├── Products/
+ │   ├── Services/
+ │   ├── About/
+ │   └── Contact/
+ ├── pages/
+ ├── assets/
+ └── index.css
+```
+
+---
+
+## 🛠️ Tech Stack
+
+* **React.js**
+* **Tailwind CSS**
+* **Vite / CRA**
+* **JavaScript ES6**
+
+---
+
+## 📦 Installation
+
+```sh
+git clone https://github.com/jhaminakshii/General-Enterprises.git
+cd General-Enterprises
+npm install
+npm run dev
+```
+
+---
+
+## 🔧 Build for Production
+
+```sh
+npm run build
+```
+
+---
+
+## 📞 Contact
+
+**General Enterprises Pvt. Ltd.**
+Durbar Marg, Kathmandu–1, Nepal
+*Your Partner in Reliable Power and Modern Mobility Solutions.*
+
+---
+
+## 📝 License
+
+This project is for official use by General Enterprises Pvt. Ltd.
+
