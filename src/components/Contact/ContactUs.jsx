@@ -81,13 +81,13 @@ const ContactUs = () => {
                 <p className="font-semibold">Address:</p>
                 <p>
                   Durbar Marg,<br />
-                  Opposite Annapurna Hotel Swimming Pool,<br />
+                  Opposite Annapurna Hotel,<br />
                   Kathmandu, Nepal
                 </p>
               </div>
               <div>
                 <p className="font-semibold">Phone:</p>
-                <p>+977-9800000000</p>
+                <p>+977-9847130210</p>
               </div>
               <div>
                 <p className="font-semibold">Email:</p>

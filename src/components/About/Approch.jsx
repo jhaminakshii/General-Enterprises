@@ -1,33 +1,36 @@
-import React from 'react'
+import React from "react";
 
-const Approch = () => {
+const Approach = () => {
   return (
-    <div className='flex flex-col-reverse justify-center md:flex-row items-center gap-5 mt-14'>
-        {/* content section */}
-        <div className='w-full md:w-2/4 space-y-4'>
-          <h1 className='text-4xl font-bold'>Our Approach</h1>
-          <h2 className='font-semibold text-lg lg:text-2xl'>
-            Empowerindividuals to achieve sustainable mobility solutions and
-            inspire a positive impact on the environment.
-          </h2>
-          <p className='text-sm lg:text-base'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Minima, ducimus itaque. 
-          </p>
-          <p className='text-sm lg:text-base'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Minima, ducimus itaque. Distinctio, voluptas excepturi. 
-            Sunt temporibus tempore, dolorum aut nihil odio voluptas.
-            Cumque magni incidunt earum impedit est. Facilis, commodi.
-          </p>
-        </div>
-         <div className='w-full md:w-2/5'>
-            {/* img Section */}
-          <img src='\power-generation-collarge-1754981640.jpg' alt="Img" className='rounded-lg' />
-        </div>
+    <div className="flex flex-col-reverse md:flex-row items-center gap-10 mt-20 px-6 md:px-14">
+      {/* LEFT CONTENT */}
+      <div className="w-full md:w-1/2 space-y-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
+          Our Approach
+        </h1>
+        <p className="text-lg md:text-xl font-medium text-gray-700 leading-relaxed">
+          We believe in delivering reliable, future-ready solutions powered by
+          engineering expertise, customer trust, and nationwide support.
+        </p>
 
+        <p className="text-gray-600 text-sm md:text-base">
+          Our team of young engineers and technical professionals strive to
+          provide accurate guidance, quality service, and dependable after-sales
+          support—ensuring customers always experience the highest confidence in
+          every product we deliver.
+        </p>
+      </div>
+
+      {/* RIGHT IMAGE */}
+      <div className="w-full md:w-1/2">
+        <img
+          src="/power-generation-collarge-1754981640.jpg"
+          alt="Approach"
+          className="rounded-xl shadow-lg"
+        />
+      </div>
     </div>
-  )
-}
+  );
+};
 
-export default Approch
+export default Approach;

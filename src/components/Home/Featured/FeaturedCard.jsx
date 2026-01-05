@@ -1,21 +1,46 @@
-import React from 'react'
+import React from "react";
 
-const FeaturedCard = ({id , img , name , price}) => {
+const FeaturedCard = ({ img, video, name, specs }) => {
   return (
-    <div className='border-1 h-90 w-full border-cyan-500 bg-slate-100 text-black rounded-xl
-        mb-2 cursor-pointer hover:scale-95 hover:bg-slate-200 transition duration-200 ease-linear'
-        key={id}>
-        <div>
-            <img src={img} alt="Auto Picture" className='rounded-t-xl w-full'  />
-        </div>
-        <div className='flex flex-col justify-center items-center'>
-            <h2 className='font-semibold text-lg text-cyan-700 pt-2'>{name}</h2>
-        </div>
-        <div className='flex gap-2 pt-2  justify-center'>
-            <h2 className='font-medium text-sm pb-2 text-gray-700'>Power : {price}</h2>
-        </div>
-    </div>
-  )
-}
+    <div
+      className="bg-white/60 backdrop-blur-md shadow-xl border border-gray-200 
+      rounded-2xl overflow-hidden hover:shadow-2xl hover:-translate-y-1 
+      transition-all duration-300 mx-3"
+    >
+      {/* MEDIA */}
+      <div className="h-56 w-full overflow-hidden bg-white relative">
+        {video ? (
+          <video
+            src={video}
+            autoPlay
+            loop
+            muted
+            playsInline
+            className="h-full w-full object-cover"
+          />
+        ) : (
+          <img
+            src={img}
+            alt={name}
+            className="h-full w-full object-contain p-4 transition-transform duration-300 hover:scale-105"
+          />
+        )}
+      </div>
 
-export default FeaturedCard
+      {/* CONTENT */}
+      <div className="p-5 text-center">
+        <h2 className="text-xl font-bold text-gray-800">{name}</h2>
+        <p className="text-gray-600 mt-1">{specs}</p>
+
+        <button
+          className="mt-4 bg-cyan-600 hover:bg-cyan-700 text-white 
+          px-5 py-2 rounded-lg text-sm font-medium transition-all duration-300 shadow-md"
+        >
+          View Details
+        </button>
+      </div>
+    </div>
+  );
+};
+
+export default FeaturedCard;

@@ -1,34 +1,35 @@
-import React from 'react'
+import React from "react";
 
 const Vision = () => {
   return (
-    <div className='flex flex-col justify-center md:flex-row items-center gap-5 mt-16'>
+    <div className="flex flex-col md:flex-row items-center gap-10 mt-16 px-6 md:px-14">
+      {/* LEFT IMG */}
+      <div className="w-full md:w-1/2">
+        <img
+          src="/originalTMTL.jpg"
+          alt="Vision"
+          className="rounded-xl shadow-lg"
+        />
+      </div>
 
-        <div className='w-full md:w-2/5'>
-            {/* img Section */}
-          <img src='\powe-deneration-banner-d-1754977594.jpg' alt="Img" className='rounded-lg' />
-        </div>
+      {/* RIGHT CONTENT */}
+      <div className="w-full md:w-1/2 space-y-4">
+        <h1 className="text-4xl md:text-5xl font-bold text-gray-800">
+          Our Vision
+        </h1>
+        <p className="text-lg md:text-xl font-medium text-gray-700 leading-relaxed">
+          To empower Nepal with sustainable power solutions, modern mobility
+          technologies, and innovative engineering excellence.
+        </p>
 
-        {/* content section */}
-        <div className='w-full md:w-2/4 space-y-4'>
-          <h1 className='text-4xl font-bold'>Our Vision</h1>
-          <h2 className='font-semibold text-lg lg:text-2xl'>
-            Empowerindividuals to achieve sustainable mobility solutions and
-            inspire a positive impact on the environment.
-          </h2>
-          <p className='text-sm lg:text-base'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Minima, ducimus itaque. 
-          </p>
-          <p className='text-sm lg:text-base'>
-            Lorem ipsum dolor sit amet, consectetur adipisicing elit. 
-            Minima, ducimus itaque. Distinctio, voluptas excepturi. 
-            Sunt temporibus tempore, dolorum aut nihil odio voluptas.
-            Cumque magni incidunt earum impedit est. Facilis, commodi.
-          </p>
-        </div>
+        <p className="text-gray-600 text-sm md:text-base">
+          We aim to redefine national standards in the energy and mobility
+          sectors by delivering globally trusted products backed by innovation,
+          efficiency, and long-term reliability.
+        </p>
+      </div>
     </div>
-  )
-}
+  );
+};
 
 export default Vision;
